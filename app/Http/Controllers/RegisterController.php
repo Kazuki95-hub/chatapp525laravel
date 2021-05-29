@@ -16,7 +16,7 @@ class RegisterController extends Controller
         $param = [
             "name" => $request->name,
             "email" => $request->email,
-            "password" => $hased_password,
+            "password" => $hashed_password,
             "profile" => $request->profile,
             "created_at" => $now,
             "updated_at" => $now,
